@@ -87,7 +87,7 @@ ifeq ($(BOARD_USES_BML_OVER_MTD),true)
 LOCAL_STATIC_LIBRARIES += libbml_over_mtd
 endif
 
-LOCAL_STATIC_LIBRARIES += libminui libpixelflinger_static libpng libcutils
+LOCAL_STATIC_LIBRARIES += libminui libpixelflinger_static libpng libcutils libm
 LOCAL_STATIC_LIBRARIES += libstdc++ libc
 
 LOCAL_C_INCLUDES += system/extras/ext4_utils
